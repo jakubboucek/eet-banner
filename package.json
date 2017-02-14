@@ -1,0 +1,21 @@
+{
+  "name": "eet-banner",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jakub Bouček",
+    "email": "pan@jakubboucek.cz",
+    "url": "https://jakub-boucek.cz/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.org/jakubboucek/eet-banner.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-base64": "^0.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.1.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"showIcon": true,
+	"popupLink": true,
+	"insertTo": ":body-end",
+	"insertBefore": null,
+	"callback": null,
+	"dataLayerName": null
+}
