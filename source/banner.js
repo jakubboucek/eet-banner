@@ -42,8 +42,6 @@
 	}
 
 	function dry(){
-		invokeEvent('show');
-
 		var html = '<span>%c%</span>';
 		if(config.options.showIcon) {
 			html = '<img src="%i%" alt="%t%" title="%t%">' + html;
@@ -79,13 +77,15 @@
 			targetElement.insertBefore(div, insertBeforeElement);
 		} else if(console) {
 			console.warn('%s warning: Unable to append banner, element "%s" not found.', identificator, insertTo);
-			invokeEvent('insert-error', identificator);
+			invokeEvent('no-show', 'dom-insert-error');
 		}
 		var a = div.querySelector('a');
 		a.addEventListener(click, function(){ invokeEvent('open-link'); });
 		if(config.options.popupLink) {
 			a.setAttribute('target', '_blank');
 		}
+
+		invokeEvent('show');
 	}
 
 	function buildConfig(defaults, mods) {
