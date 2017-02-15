@@ -67,7 +67,7 @@ Ve výchozím nastavení se banner vykresluje na na konec stránky (jako posledn
 	};
 </script>
 …
-<dic class="footer"><!-- Panel will be place here --></a>
+<div class="footer"><!-- Panel will be place here --></div>
 ```
 
 
