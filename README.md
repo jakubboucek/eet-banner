@@ -116,7 +116,7 @@ Tento kód uveďte vždy před voláním banneru, tedy např.:
 ## Obtěžování uživatele
 Uvědumuju si, že [nařízení zákona](https://www.zakonyprolidi.cz/cs/2016-112#p25-2-a) je zcela zbytečné a nesmyslné. Nedává mi proto smysl upozornění dělat obzvlášť výrazné a obtěžující.
 Z toho důvodu je banner:
-* psaná malým písmem,
+* psaný malým písmem,
 * v nevýrazných barvách,
 * nemá fixní pozici, aby se dala odrolovat pryč.
 
